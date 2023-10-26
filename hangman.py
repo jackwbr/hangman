@@ -7,8 +7,9 @@ if begin == "yes":
     p2 = input("And who is player 2? ")
 
 word = input("Okay, " + p1 + " and " + p2 + ", let's begin. " + p1 + ", please enter a word. ")
+listword = list(word)
 
 g1 = input("Okay, " + p2 + ", please guess a letter. ")
-if g1 in word:
+if g1 in listword:
     print("Correct! " + g1 + " is in the word.")
-    
+
