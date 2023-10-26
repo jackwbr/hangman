@@ -5,3 +5,5 @@ if begin == "no":
 if begin == "yes":
     p1 = input("Great! Who is player 1? ")
     p2 = input("And who is player 2? ")
+
+word = input("Okay, " + p1 + " and " + p2 + ", let's begin. " + p1 + ", please enter a word. ")
