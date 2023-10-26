@@ -12,4 +12,5 @@ listword = list(word)
 g1 = input("Okay, " + p2 + ", please guess a letter. ")
 if g1 in listword:
     print("Correct! " + g1 + " is in the word.")
-    
+
+#CREATE A LIST FOR BLANK SPACES AND USE A FUCNTUIB TI REMOVE THINGS FROM THE MAIN LIST
