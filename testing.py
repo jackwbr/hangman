@@ -4,11 +4,11 @@ print(listword)
     
 contlist = listword
 
-x = 0
-global x
+z = len(word)
 
-for i in range(25):
-    contlist[x] = "_"
-    x = x + 1
+i = 0
+while i < z:
+    contlist[i] = "_"
+    i = i + 1
 
 print(contlist)

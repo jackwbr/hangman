@@ -10,13 +10,15 @@ if begin == "yes":
 
 word = input("Okay, " + p1 + " and " + p2 + ", let's begin. " + p1 + ", please enter a word. ")
 listword = list(word)
+underword = list(word)
 
-while True:
-    x = 0
-    contlist = listword                 #WIP
-    contlist[x] = "hi"
+z = len(word)
+
+i = 0
+while i < z:
+    underword[i] = "_"
+    i = i + 1
     
-
 g1 = input("Okay, " + p2 + ", please guess a letter. ")
 if g1 in listword:
     print("Correct! " + g1 + " is in the word.")
