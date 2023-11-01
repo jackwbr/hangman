@@ -21,7 +21,9 @@ while i < z:
     underword[i] = "_"
     i = i + 1
     
-faillist = ["Nope, try again", "Sorry, try again", "FAIL, give it another shot", "Imagine guessing the wrong answer. Give it another shot"]
+faillist = ["Nope, try again", "Sorry, try again", "FAIL, give it another shot", \
+            "Imagine guessing the wrong answer. Give it another shot", "You're getting closer, try again", \
+                '"Another one" - DJ Khaled']
 lecontrol = 0
 
 while lecontrol <= lenword:
